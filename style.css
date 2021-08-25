@@ -1,0 +1,51 @@
+body {
+  transition: 0.2s ease;
+  text-align: center;
+  background-color:lightgray;
+}
+
+}
+.game-container {
+  margin: 30px auto;
+}
+
+p {
+  margin: 10px 0px;
+  padding: 0px;
+
+}
+.game-map {
+  position: relative;
+}
+div.layer, 
+div.layer div {
+  position: absolute;
+}
+#tiles div {
+  border: 3px solid grey;
+}
+.default .floor {
+  background-color: white;
+}
+.default .wall {
+  background-color: skyblue;
+}
+.player {
+  background-color: green;
+  border: 1px solid red;
+}
+.goal {
+  background-color: black;
+  border: 1px solid #98720b;
+}
+.player {
+  background-color: green;
+  border: 1px solid green;
+  transition: left 0.2s linear, top 0.2s linear;
+}
+
+.player, 
+.goal {
+  transform-origin: center;
+  transform:scale(0.9);
+}
